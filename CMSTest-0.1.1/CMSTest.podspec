@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "CMSTest"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
   s.summary = "A short description of CMSTest."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"562925462@qq.com"=>"yaojie.feng@symbio.com"}

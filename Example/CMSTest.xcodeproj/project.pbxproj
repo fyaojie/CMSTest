@@ -359,11 +359,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CMSTest_Example/Pods-CMSTest_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/CMSTest/CMSTest.bundle",
+				"${PODS_ROOT}/../../CMSTest/Assets/1.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CMSTest.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/1.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

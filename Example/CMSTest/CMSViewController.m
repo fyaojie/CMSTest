@@ -7,6 +7,7 @@
 //
 
 #import "CMSViewController.h"
+#import <CMSTest/CMSTest.h>
 
 @interface CMSViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [[CMSTest new] test];;
 }
 
 - (void)didReceiveMemoryWarning
